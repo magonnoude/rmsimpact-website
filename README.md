@@ -98,8 +98,8 @@ Attendez la propagation des DNS (cela peut prendre de quelques minutes à quelqu
 Le site web a pour vocation de servir de support principal à la communication stratégique de RMS Impact. Il est destiné à un public varié incluant les gouvernements, les bailleurs de fonds internationaux (Union Européenne, USAID, BAD, ONU), les investisseurs privés et les philanthropes.
 
 Ses objectifs sont de :
-* [cite_start]Présenter la mission humanitaire et économique de l'entreprise. [cite: 4]
-* [cite_start]Mettre en valeur le modèle économique viable et les projets. [cite: 98]
+* Présenter la mission humanitaire et économique de l'entreprise.
+* Mettre en valeur le modèle économique viable et les projets.
 * Servir de plateforme pour la levée de fonds et le dialogue avec les partenaires.
 
 ---
