@@ -1,0 +1,181 @@
+/* Importation de la police de caractères depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Définition de la nouvelle charte graphique basée sur le logo */
+:root {
+    --primary-blue: #0077c8; /* Bleu principal du logo */
+    --accent-green: #98c832;  /* Vert vif du logo */
+    --accent-orange: #f8992c; /* Orange du soleil */
+    --dark-grey: #3c3c3c;     /* Gris foncé du fond du logo */
+    --light-grey: #f4f7f6;
+    --font-family: 'Poppins', sans-serif;
+}
+
+/* Styles globaux */
+body {
+    font-family: var(--font-family);
+    padding-top: 80px; /* Réduit pour un header plus compact */
+    color: var(--dark-grey);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: var(--primary-blue);
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+/* Barre de Navigation (Header) */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding-top: 5px;  /* Réduit pour compacter */
+    padding-bottom: 5px; /* Réduit pour compacter */
+}
+
+.navbar-brand-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 50px; /* Réduit pour compacter */
+    margin-right: 15px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-slogan {
+    font-weight: 600;
+    font-size: 1rem; /* Réduit pour compacter */
+    color: var(--primary-blue);
+    line-height: 1.2;
+}
+
+.header-odd {
+    font-size: 0.75rem; /* Réduit pour compacter */
+    color: var(--accent-orange);
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--accent-orange);
+}
+
+/* Style pour les drapeaux dans le menu déroulant */
+.dropdown-item .flag-icon {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 1px solid #eee;
+}
+
+/* Section Hero (Accueil) */
+
+/* NOUVELLE LIGNE */
+.hero-section {
+    background: linear-gradient(rgba(0, 119, 200, 0.7), rgba(60, 60, 60, 0.8)), url('http://googleusercontent.com/image_collection/image_retrieval/16014505618241549320') no-repeat center center/cover;
+    height: 70vh;
+    color: white;
+}
+
+
+
+/* Boutons */
+.btn-primary {
+    background-color: var(--accent-orange);
+    border-color: var(--accent-orange);
+    padding: 12px 28px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e68a1a;
+    border-color: #e68a1a;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* En-têtes de page génériques */
+.page-header {
+    background: var(--primary-blue);
+    color: white;
+    padding: 4rem 0;
+}
+
+.page-header h1, .page-header p {
+    color: white;
+}
+
+/* Section Partenaires */
+.partner-logos img {
+    height: 60px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+    margin: 15px;
+}
+
+.partner-logos img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+/* Pied de page (Footer) */
+footer {
+    background-color: var(--dark-grey);
+}
+
+footer h5 {
+    color: var(--accent-green);
+}
+
+footer a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-legal-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* === Styles pour la page Gouvernance / Leadership === */
+
+/* Style pour la photo principale de l'initiateur */
+.leader-photo-main {
+    width: 250px;   /* Largeur fixe */
+    height: 250px;  /* Hauteur fixe (identique à la largeur pour un cercle parfait) */
+    border-radius: 50%; /* Force la forme ronde */
+    object-fit: cover;  /* Assure que l'image remplit le cercle sans être déformée */
+    border: 5px solid white; /* Ajoute une bordure blanche élégante */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Ajoute une ombre discrète */
+}
+
+/* Style pour les photos des membres de l'équipe */
+.leader-photo-team {
+    width: 180px;   /* Taille plus petite pour les membres */
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
