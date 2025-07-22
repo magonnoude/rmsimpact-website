@@ -70,4 +70,4 @@ La dernière étape consiste à faire pointer votre nom de domaine vers la distr
 4.  Pour le domaine racine (`rmsimpact.org`), GoDaddy ne permet pas toujours d'utiliser un CNAME. Vous devrez utiliser la **"Redirection"** :
     * Configurez une redirection permanente (301) de `http://rmsimpact.org` vers `https://www.rmsimpact.org`.
 
-Attendez la propagation des DNS (cela peut prendre de quelques minutes à quelques heures). Une fois terminé, votre site `https://www.rmsimpact.org` sera en ligne, sécurisé et servi via CloudFront.
+Attendez la propagation des DNS (cela peut prendre de quelques minutes à quelques heures). Une fois terminé, votre site `https://www.rmsimpact.org` sera en ligne, sécurisé et servi via CloudFront.# rmsimpact-website
