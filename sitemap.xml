@@ -1,51 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://www.rmsimpact.org/index.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://www.rmsimpact.org/about.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.rmsimpact.org/leadership.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.rmsimpact.org/projects.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.rmsimpact.org/investors.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.rmsimpact.org/blog.html</loc>
-    <priority>0.60</priority>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.rmsimpact.org/press.html</loc>
-    <priority>0.60</priority>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+
+  <url>
+    <loc>https://www.rmsimpact.org/terms.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.20</priority>
   </url>
   <url>
+    <loc>https://www.rmsimpact.org/privacy.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.20</priority>
+  </url>
+  <url>
+    <loc>https://www.rmsimpact.org/legal.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.20</priority>
+  </url>
+
+  <url>
     <loc>https://www.rmsimpact.org/index_en.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://www.rmsimpact.org/about_en.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.rmsimpact.org/leadership_en.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.rmsimpact.org/projects_en.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://www.rmsimpact.org/investors_en.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.80</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.rmsimpact.org/blog_en.html</loc>
-    <priority>0.60</priority>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
-   <url>
+  <url>
     <loc>https://www.rmsimpact.org/press_en.html</loc>
-    <priority>0.60</priority>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
   </url>
+
+  <url>
+    <loc>https://www.rmsimpact.org/terms_en.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.20</priority>
+  </url>
+  <url>
+    <loc>https://www.rmsimpact.org/privacy_en.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.20</priority>
+  </url>
+  <url>
+    <loc>https://www.rmsimpact.org/legal_en.html</loc>
+    <lastmod>2025-07-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.20</priority>
+  </url>
+
 </urlset>

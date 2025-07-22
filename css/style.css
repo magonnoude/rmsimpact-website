@@ -81,13 +81,15 @@ h2 {
 
 /* Section Hero (Accueil) */
 
-/* NOUVELLE LIGNE */
+
+/* REMPLACEZ l'ancienne règle .hero-section par celle-ci */
+
 .hero-section {
-    background: linear-gradient(rgba(0, 119, 200, 0.7), rgba(60, 60, 60, 0.8)), url('http://googleusercontent.com/image_collection/image_retrieval/16014505618241549320') no-repeat center center/cover;
+    /* Le chemin utilise ../ pour "remonter" du dossier /css/ au dossier racine avant d'aller dans /assets/ */
+    background: linear-gradient(rgba(0, 119, 200, 0.7), rgba(60, 60, 60, 0.8)), url('../assets/images/hero-images.jpeg') no-repeat center center/cover;
     height: 70vh;
     color: white;
 }
-
 
 
 /* Boutons */
