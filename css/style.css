@@ -71,13 +71,40 @@ h2 {
     color: var(--accent-orange);
 }
 
-/* Style pour les drapeaux dans le menu déroulant */
+
+/* ================================================= */
+/* REMPLACEZ TOUTE LA SECTION CSS POUR LES DRAPEAUX  */
+/* PAR CE QUI SUIT                                  */
+/* ================================================= */
+
+/* Style pour le GRAND drapeau dans l'en-tête des pages pays */
+.page-header .flag-icon {
+    height: 30px; /* On redéfinit la bonne hauteur ici */
+    width: auto;
+    border-radius: 4px;
+    vertical-align: bottom; /* Améliore l'alignement avec le titre h1 */
+    margin-right: 15px;
+    border: 1px solid #fff;
+}
+
+/* Style pour les PETITS drapeaux dans le menu déroulant */
 .dropdown-item .flag-icon {
     width: 20px;
-    margin-right: 10px;
+    height: auto;
     vertical-align: middle;
     border: 1px solid #eee;
+    margin-right: 10px;
 }
+
+/* Style pour les PETITS drapeaux dans le tableau de données */
+td .flag-icon {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+    border: 1px solid #eee;
+    margin-right: 8px;
+}
+
 
 /* Section Hero (Accueil) */
 
