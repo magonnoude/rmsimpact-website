@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="/index.html">
             <div class="navbar-brand-wrapper">
                 <img src="/assets/images/logo.jpg" alt="RMS Impact Logo">
                 <div class="header-text">
@@ -13,17 +13,45 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto align-items-center">
                 <li class="nav-item"><a class="nav-link" href="/index.html">Accueil</a></li>
-                <li class="nav-item"><a class="nav-link" href="/about.html">À Propos</a></li>
-                <li class="nav-item"><a class="nav-link" href="/leadership.html">Gouvernance</a></li>
-                <li class="nav-item"><a class="nav-link" href="/projects.html">Projets</a></li>
-                <li class="nav-item"><a class="nav-link" href="target-countries.html">Pays Cibles</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="projectDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Le Projet
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="projectDropdown">
+                        <li><a class="dropdown-item" href="/about.html">À Propos</a></li>
+                        <li><a class="dropdown-item" href="/leadership.html">Gouvernance</a></li>
+                        <li><a class="dropdown-item" href="/projects.html">Projets</a></li>
+                        <li><a class="dropdown-item" href="/target-countries.html">Pays Cibles</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="involvedDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        S'impliquer
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="involvedDropdown">
+                        <li><a class="dropdown-item" href="/investors.html">Investir</a></li>
+                        <li><a class="dropdown-item" href="/soutenir.html">Faire un don</a></li>
+                        <li><a class="dropdown-item" href="/proposer-projet.html">Soumettre un Projet</a></li>
+                    </ul>
+                </li>
                 
-                <li class="nav-item"><a class="nav-link" href="/investors.html">Investisseurs</a></li>
-                <li class="nav-item"><a class="nav-link" href="/blog.html">Actualités</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="mediaDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Média
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="mediaDropdown">
+                        <li><a class="dropdown-item" href="/blog.html">Actualités</a></li>
+                        <li><a class="dropdown-item" href="/press.html">Presse</a></li>
+                    </ul>
+                </li>
+
                 <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
-                <li class="nav-item">
+
+                <li class="nav-item ms-lg-2">
                     <a class="nav-link" href="/index_en.html">EN</a>
                 </li>
             </ul>
